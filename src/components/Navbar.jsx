@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 function Navbar() {
   return (
@@ -16,8 +16,6 @@ function Navbar() {
     </nav>
   );
 }
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
 
 function Home() {
   return <h2>Page d'accueil</h2>;
